@@ -1,0 +1,9 @@
+lane :bonjour do
+
+UI.sucess "Bravo !"
+UI.error "erreur"
+
+scan(
+project: "FastLane.xcodeproj"
+)
+end
